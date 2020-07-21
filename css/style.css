@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.carousel-inner {
+  background-color: #ffda00;
+  height: 600px;
+
+}
+  .carousel-item img{
+  	height: 400px;
+  	width: 25%;
+  	margin-left: auto;
+  	margin-right: 120px;
+  }
+ .navbar-brand img{
+ 	height: 100%;
+ 	width: 100%;
+ }
+ .carousel-caption {
+ 	margin-right: 20rem;
+ }
+ .carousel-inner h3 {
+    color: #000;
+    font-size: 40px;
+    font-weight: bold; 
+    text-align: left;
+}
+ .carousel-inner p {
+    color: #00000094; 
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+}
+.carousel-inner nav{
+  	padding: 50px 100px;
+  }  
+ .carousel-inner nav ul{
+  	
+  }  
+ .carousel-inner nav ul li{
+  	padding: 0 20px;
+  }  
+   .carousel-inner nav ul li a{
+  	font-size: 22px;
+  	font-weight: bold;
+
+  }  
+.col-section img {
+  height: 50px;
+  padding: 0 10px;
+}
+
+.features-section .text{
+	text-align: center;
+	padding: 70px 0;
+}
+.features-section .text h2{
+   font-weight: bold;
+   font-size: 40px;
+}
+.features-section .text p{
+	font-weight: 700;
+    color: #0000009e;
+    font-size: 25px;
+}
+
+.col-section .row{
+	padding-bottom: 50px;
+}
+.col-section h3{
+	font-weight: bold;
+}
+.col-section p{
+	font-weight: 600;
+    color: #0000007a;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.footer-section {
+  background: #000;
+  height: 700px;
+  margin-top: 80px; 
+}
+.text2{
+	text-align: center;
+    padding-top: 100px;
+}
+.text2 h3{
+	color: #ffc107;
+	font-weight: bold;
+	font-size: 40px;
+}
+.text2 p{
+	color: #ffffff91;
+	padding: 10px 0;
+	margin-bottom: 40px;
+	font-size: 25px;
+}
+.icons{
+	text-align: center;
+	padding: 30px 0;
+}
+.icons img{
+  color:  yellow !important;
+  height: 45px; 
+  padding: 0 15px;
+}
+.footer-section nav{
+	margin-top: 150px;
+}
+.footer-section nav ul{
+	list-style: none;
+  text-decoration: none;
+}
+.footer-section nav ul li{
+  
+
+}
+.footer-section nav ul li a{
+  color: #fff;	
+}
+
+
+
+
+@media (min-width:992px ) and (max-width:1199px ){}
+
+@media (min-width:768px ) and (max-width:991px ){
+
+}
+
+@media (min-width:576px ) and (max-width:767px ){}
+
+@media (min-width:320px ) and (max-width:575px ){
+	.carousel-inner nav {
+    padding: 50px 30px;
+}
+.carousel-item img {
+    height: 360px;
+    width: 62%;
+    margin-right: 60px;
+}
+.navbar-brand img {
+    width: 80%;
+}
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+}
+.features-section .text h2 {
+    font-size: 25px;
+}
+.features-section .text p {
+    font-size: 10px;
+}
+.col-section p {
+    font-size: 15px;
+    text-align: center;
+}
+.h3, h3 {
+    font-size: 1.2rem;  
+    text-align: center;
+}
+.col-section img {
+    height: 40px;
+    padding: 0 0px;
+}
+.text2 {
+    padding-top: 30px;
+}
+.text2 h3 {
+    font-size: 25px;
+}
+.footer-section {
+    margin-top: 0px;
+}
+.text2 p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.form-control-lg {
+    padding: .5rem 6px;
+    font-size: 1rem;
+}
+.icons img {
+    height: 25px;
+    padding: 0px 13px;
+}
+.form-group {
+    margin-bottom: 0rem;
+    margin-left: 25px;
+}
+.icons {
+    padding: 20px 0;
+}
+.footer-section nav {
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-section nav ul li a {
+    font-size: 14px;
+}
+}
+/*# sourceMappingURL=style.css.map */
